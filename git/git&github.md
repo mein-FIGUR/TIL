@@ -110,3 +110,10 @@ $ git config --global user.name "유저네임"
   - `git log --oneline` 커밋 목록 한 줄로 확인 가능
 - log 내의 `origin`은 github에서의 상태를 말하고, `HEAD`는 로컬에서의 상태를 말함
 
+
+
+### gitignore
+
+- git으로 관리하고 싶지 않은 파일들의 리스트를 작성하여 git이 버전관리를 하지 않도록 하는 것
+- 개발환경과 같은 파일들은 github에 올라가서는 안됨
+- `.gitignore` 파일을 만들어서 관리
