@@ -22,19 +22,44 @@
 
 
 
+
+
+#### Git 초기 설정
+
+- 커밋 작성자 설정
+
+```
+$ git config --global user.email "메일주소"
+$ git config --global user.name "유저네임"
+```
+
+
+
+
+
 #### Git의 작업 흐름
 
 - working directory(가수) , staging area(무대), commit(사진촬영)
 
 1. 워킹 디렉토리(실제 폴더)에서 작업
+
 2. `git add`를 통해 staging area로 작업한 내용을 올림
+
+   - `git add .` 현재 디렉토리의 모든 파일 + 하위 디렉토리
+
    - `git restore --staged <file>` 을 통해 add로 올린 파일들을 내릴 수 있음
    - `git restore --staged all` 을 통해 모든 파일을 내릴 수도 있음
+
 3. `git commit`을 통해 버전을 생성
+
    - `git checkout`을 통해 이전 commit 이동 가능
    - `git checkout master` 을 통해 마스터로 이동 가능
+
 4. `git push`를 통해 github에 업로드
+
    - commit들이 기록되어 있는 곳에 생성된 커밋들 반영
+
+
 
 
 
@@ -53,6 +78,8 @@
 
 
 
+
+
 #### Github와 연결하기(push)
 
 - github에서 repository를 생성
@@ -64,6 +91,8 @@
 
 
 
+
+
 #### Github에서 불러오기 (pull)
 
 - `git clone https://github.com/(id)/(repository_name).git`  (처음 1회만)
@@ -72,8 +101,12 @@
 
 
 
+
+
 #### Tips
 
+- `git status` 를 통해 untracked files 확인 가능
 - `git log`를 통해 현재 커밋 상태 파악 가능
+  - `git log --oneline` 커밋 목록 한 줄로 확인 가능
 - log 내의 `origin`은 github에서의 상태를 말하고, `HEAD`는 로컬에서의 상태를 말함
 
