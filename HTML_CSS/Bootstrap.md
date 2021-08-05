@@ -48,3 +48,79 @@
   - px은 grid breakpoint에 사용
   - viewport 너비가 픽셀단위이고 글꼴 크기에 따라 변하지 않기 떄문
 
+
+
+
+
+자세한 내용은 <https://getbootstrap.com/docs/5.0/getting-started/introduction/> 참조
+
+### Spacing
+
+- property
+  - `m`: margin
+  - `p`: padding
+- sides
+  - `t`: top
+  - `b`: bottom
+  - `s`: start(left)
+  - `e`: end(right)
+  - `x`: left and right
+  - `y`: top and bottom
+  - blank: 4 sides
+
+- size
+  - `0`
+  - `1`
+  - `2`
+  - `3`
+  - `4`
+  - `5`
+  - `auto`: margin을 `auto`로 설정
+
+- 표기
+  - `mx-3`, `pt-3`, `m-4`, `mx-auto` 등
+
+
+
+### Color
+
+- Text
+
+![image-20210804224231047](Bootstrap.assets/image-20210804224231047.png)
+
+```html
+<p class="text-primary">.text-primary</p>
+<p class="text-secondary">.text-secondary</p>
+<p class="text-success">.text-success</p>
+<p class="text-danger">.text-danger</p>
+<p class="text-warning bg-dark">.text-warning</p>
+<p class="text-info bg-dark">.text-info</p>
+<p class="text-light bg-dark">.text-light</p>
+<p class="text-dark">.text-dark</p>
+<p class="text-body">.text-body</p>
+<p class="text-muted">.text-muted</p>
+<p class="text-white bg-dark">.text-white</p>
+<p class="text-black-50">.text-black-50</p>
+<p class="text-white-50 bg-dark">.text-white-50</p>
+```
+
+
+
+- Background
+
+![image-20210804224256320](Bootstrap.assets/image-20210804224256320.png)
+
+```html
+<div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+<div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+<div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+<div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+<div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+<div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+<div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+<div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+<div class="p-3 mb-2 bg-body text-dark">.bg-body</div>
+<div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+<div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+```
+
