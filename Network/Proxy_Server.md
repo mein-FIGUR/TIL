@@ -20,3 +20,13 @@
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Open_proxy_h2g2bob.svg/350px-Open_proxy_h2g2bob.svg.png)
 
+- 프록시 서버 중 일부는 서버에 요청된 내용들을 `캐시`를 이용하여 저장
+  - 캐시 안의 정보를 요청하는 경우, 바로 정보를 제공함으로써 시간 절약
+- 외부와의 트래픽을 줄이게 됨으로써 네트워크 병목 현상 방지
+
+<br>
+
+<br>
+
+## Forward Proxy🔍
+
