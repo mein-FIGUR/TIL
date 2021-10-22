@@ -15,6 +15,10 @@
 - 자식 수에 대한 일반화를 진행하면서, 하나의 레벨에 더 저장되는 것 뿐만 아니라 트리의 균형을 자동으로 맞춰주는 로직도 존재
 - 탐색 시간이 무조건 `O(logN)`
 
+![image](https://kookyungmin.github.io/image/DataStruc_img/DataStruc_img20.png)
+
+
+
 
 
 <br>
@@ -29,4 +33,18 @@
 - 루트 노드를 제외한 모든 노드는 적어도 M/2개의 자료를 가지고 있어야 한다.
 - 외부 노드로 가는 경로의 길이는 모두 같다.
 - 입력 자료는 중복될 수 없다.
+
+<br>
+
+<br>
+
+## B+ Tree❓
+
+> B+ Tree(Quaternary Tree)는 키에 의해서 각각 식별되는 레코드(data node)의 효율적인 삽입, 검색과 삭제를 통해 정렬된 데이터를 표현하기 위한 트리자료구조의 일종이다. B 트리와 대조적으로 B+ 트리는 모든 레코드들이 트리의 가장 하위레벨에 정렬되어 있다.
+
+- Index node, Data node 로 구성이 되어있다.
+  - Index node: leaf 노드를 제외한 나머지 node
+  - Data node: leaf node로, data node들은 linked list형태로 서로 연결되어 있고, 이를 순차집합(Sequence set)이라고 하며, 오름차순으로 정렬이 되어 있다.
+
+![image](https://kookyungmin.github.io/image/DataStruc_img/DataStruc_img21.png)
 
