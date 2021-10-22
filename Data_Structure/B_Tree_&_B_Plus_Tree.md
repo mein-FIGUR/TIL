@@ -8,6 +8,8 @@
 
 <br>
 
+<br>
+
 ## B Tree❓
 
 > 데이터베이스와 파일 시스템에서 널리 사용되는 트리 자료구조의 일종으로, 이진 트리를 확장해 **하나의 노드가 가질 수 있는 자식 노드의 최대 숫자가 2보다 큰 트리구조**이다. M개의 자식을 가질 수 있도록 설계된 경우, M차 B 트리라고 한다. 단순하고 효율적이며, 레벨로 따지면 완전히 균형을 갖춘 트리이다.
@@ -16,10 +18,6 @@
 - 탐색 시간이 무조건 `O(logN)`
 
 ![image](https://kookyungmin.github.io/image/DataStruc_img/DataStruc_img20.png)
-
-
-
-
 
 <br>
 
@@ -47,4 +45,16 @@
   - Data node: leaf node로, data node들은 linked list형태로 서로 연결되어 있고, 이를 순차집합(Sequence set)이라고 하며, 오름차순으로 정렬이 되어 있다.
 
 ![image](https://kookyungmin.github.io/image/DataStruc_img/DataStruc_img21.png)
+
+<br>
+
+<br>
+
+### REFERENCE
+
+- [[자료구조] 1. B-tree](https://kookyungmin.github.io/study/2018/07/28/data_structure_01/)
+- [[자료구조] 2.B+-tree](https://kookyungmin.github.io/study/2018/07/29/data_structure_02/)
+- [B 트리](https://ko.wikipedia.org/wiki/B_%ED%8A%B8%EB%A6%AC)
+- [B+ 트리](https://ko.wikipedia.org/wiki/B%2B_%ED%8A%B8%EB%A6%AC)
+- [[2020.10.25] 데이터베이스 인덱스는 왜 'B-Tree'를 선택하였는가](https://helloinyong.tistory.com/296)
 
