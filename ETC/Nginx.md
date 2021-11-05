@@ -16,7 +16,7 @@
 
 - 경량 웹 서버
 - 정적 파일을 응답해주는 HTTP Web Server의 기능
-- Reverse Proxy Server로 활용하여 WAS 서버의 부하를 줄일 수 있는 로드 밸런서로 활용되기도 함
+- **Reverse Proxy Server**로 활용하여 WAS 서버의 부하를 줄일 수 있는 로드 밸런서로 활용되기도 함
 - **Event-Driven**구조를 지니고 있다는 점이 가장 큰 특징
 
 <br>
@@ -31,3 +31,13 @@
   - 다수의 연결을 효과적으로 처리
   - 대부분의 코어 모듈이 Apache보다 적은 리소스로 더 빠르게 동작
   - 더 작은 쓰레드로 클라이언트의 요청들을 처리
+
+<br>
+
+## Nginx의 구조
+
+- 하나의 Master Process와 다수의 Worker Process로 구성
+- Master Process
+  - 설정 파일을 읽고, 유효성 검사 및 Worker Process 관리
+- Worker Process
+  - 요청 처리
