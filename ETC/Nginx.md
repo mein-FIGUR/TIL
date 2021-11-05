@@ -3,8 +3,8 @@
 <br>
 
 - Nginx❓
-
-
+- Apache vs Nginx
+- Nginx의 구조
 
 
 
@@ -31,6 +31,8 @@
   - 다수의 연결을 효과적으로 처리
   - 대부분의 코어 모듈이 Apache보다 적은 리소스로 더 빠르게 동작
   - 더 작은 쓰레드로 클라이언트의 요청들을 처리
+
+![비동기 처리방식](http://i.imgur.com/W6JATVH.png)
 
 <br>
 
