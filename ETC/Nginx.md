@@ -43,3 +43,16 @@
   - 설정 파일을 읽고, 유효성 검사 및 Worker Process 관리
 - Worker Process
   - 요청 처리
+
+<br>
+
+<br>
+
+### REFERENCE
+
+- [Nginx](https://ko.wikipedia.org/wiki/Nginx)
+- [Nginx란 무엇인가?](https://velog.io/@wijihoon123/Nginx%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
+- [[개발자 면접준비]#2. nginx의 이해와 활용](https://m.blog.naver.com/jhc9639/220967352282)
+- [[배포하기]3. Nginx란? 내가 만든 서버는 뭐지?](https://been2.tistory.com/48)
+- [(NGINX) NGINX란?](https://medium.com/@su_bak/nginx-nginx%EB%9E%80-cf6cf8c33245)
+
