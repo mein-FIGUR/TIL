@@ -1,7 +1,8 @@
 # 파일의 Mime Type을 알아내는 방법
 
 > 아래와 같은 방법을 통해 file의 mime type을 알 수 있다.
-> 
+
+<br><br>
 
 ### probeContentType
 
@@ -19,6 +20,8 @@ class ProbeTest {
     }
 }
 ```
+
+<br><br>
 
 ### URLConnetion
 
@@ -76,6 +79,7 @@ class UrlConnectionTest2{
     System.setProperty("content.types.user.table","<path-to-file>");
     ```
     
+<br><br>
 
 ### MimeTypesFileTypeMap
 
@@ -100,6 +104,8 @@ class UrlConnectionTest2{
 }
 ```
 
+<br><br>
+
 ### jMieMagic
 
 - build.gradle 에 추가한 이후 활용
@@ -117,6 +123,8 @@ class JMimeMagicTest{
     }
 }
 ```
+
+<br><br>
 
 ### Apache Tika
 
@@ -136,6 +144,8 @@ class TikaTest{
     }
 }
 ```
+
+<br><br>
 
 ### REFERENCE
 
